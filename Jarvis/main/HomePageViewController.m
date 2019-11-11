@@ -7,6 +7,7 @@
 //
 
 #import "HomePageViewController.h"
+#import "TopSectionCollectionViewCell.h"
 
 @interface HomePageViewController ()
 @property (weak, nonatomic) IBOutlet UICollectionView *topSectionCollection;
@@ -30,9 +31,10 @@ const NSString *topSectionIdentifier = @"topSectionButtonItem";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    TopSectionCollectionViewCell * cellItem = [collectionView dequeueReusableCellWithReuseIdentifier:@"topSectionButtonItem" forIndexPath:indexPath];
     
     
-    return NULL;
+    return cellItem;
 }
 /*
 #pragma mark - Navigation
