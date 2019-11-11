@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D63CA0423790D4400E668D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA0323790D4400E668D0 /* AppDelegate.m */; };
+		0D63CA0723790D4400E668D0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA0623790D4400E668D0 /* SceneDelegate.m */; };
+		0D63CA0A23790D4400E668D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA0923790D4400E668D0 /* ViewController.m */; };
+		0D63CA0D23790D4400E668D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D63CA0B23790D4400E668D0 /* Main.storyboard */; };
+		0D63CA0F23790D4600E668D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D63CA0E23790D4600E668D0 /* Assets.xcassets */; };
+		0D63CA1223790D4600E668D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D63CA1023790D4600E668D0 /* LaunchScreen.storyboard */; };
+		0D63CA1523790D4600E668D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA1423790D4600E668D0 /* main.m */; };
+		0D63CA1F23790D4700E668D0 /* JarvisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA1E23790D4700E668D0 /* JarvisTests.m */; };
+		0D63CA2A23790D4700E668D0 /* JarvisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA2923790D4700E668D0 /* JarvisUITests.m */; };
+		0DAB54122379185E007C89BB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB54112379185E007C89BB /* MainStoryboard.storyboard */; };
+		0DCB52DB2379318B007C8E51 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB52DA2379318B007C8E51 /* HomePageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D63CA1B23790D4700E668D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D63C9F723790D4400E668D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D63C9FE23790D4400E668D0;
+			remoteInfo = Jarvis;
+		};
+		0D63CA2623790D4700E668D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D63C9F723790D4400E668D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D63C9FE23790D4400E668D0;
+			remoteInfo = Jarvis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D63C9FF23790D4400E668D0 /* Jarvis Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jarvis Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D63CA0223790D4400E668D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0D63CA0323790D4400E668D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D63CA0523790D4400E668D0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0D63CA0623790D4400E668D0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0D63CA0823790D4400E668D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0D63CA0923790D4400E668D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0D63CA0C23790D4400E668D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D63CA0E23790D4600E668D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D63CA1123790D4600E668D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D63CA1323790D4600E668D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D63CA1423790D4600E668D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D63CA1A23790D4700E668D0 /* JarvisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarvisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D63CA1E23790D4700E668D0 /* JarvisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarvisTests.m; sourceTree = "<group>"; };
+		0D63CA2023790D4700E668D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D63CA2523790D4700E668D0 /* JarvisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarvisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D63CA2923790D4700E668D0 /* JarvisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarvisUITests.m; sourceTree = "<group>"; };
+		0D63CA2B23790D4700E668D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DAB54112379185E007C89BB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0DCB52D92379318B007C8E51 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		0DCB52DA2379318B007C8E51 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D63C9FC23790D4400E668D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D63CA1723790D4700E668D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D63CA2223790D4700E668D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D63C9F623790D4400E668D0 = {
+			isa = PBXGroup;
+			children = (
+				0D63CA0123790D4400E668D0 /* Jarvis */,
+				0D63CA1D23790D4700E668D0 /* JarvisTests */,
+				0D63CA2823790D4700E668D0 /* JarvisUITests */,
+				0D63CA0023790D4400E668D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D63CA0023790D4400E668D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D63C9FF23790D4400E668D0 /* Jarvis Native.app */,
+				0D63CA1A23790D4700E668D0 /* JarvisTests.xctest */,
+				0D63CA2523790D4700E668D0 /* JarvisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D63CA0123790D4400E668D0 /* Jarvis */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB540B23790F5F007C89BB /* product */,
+				0DAB540A23790F56007C89BB /* main */,
+				0DAB540923790F15007C89BB /* commons */,
+				0D63CA0223790D4400E668D0 /* AppDelegate.h */,
+				0D63CA0323790D4400E668D0 /* AppDelegate.m */,
+				0D63CA0523790D4400E668D0 /* SceneDelegate.h */,
+				0D63CA0623790D4400E668D0 /* SceneDelegate.m */,
+				0D63CA0823790D4400E668D0 /* ViewController.h */,
+				0D63CA0923790D4400E668D0 /* ViewController.m */,
+				0D63CA0B23790D4400E668D0 /* Main.storyboard */,
+				0D63CA0E23790D4600E668D0 /* Assets.xcassets */,
+				0D63CA1023790D4600E668D0 /* LaunchScreen.storyboard */,
+				0D63CA1323790D4600E668D0 /* Info.plist */,
+				0D63CA1423790D4600E668D0 /* main.m */,
+			);
+			path = Jarvis;
+			sourceTree = "<group>";
+		};
+		0D63CA1D23790D4700E668D0 /* JarvisTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D63CA1E23790D4700E668D0 /* JarvisTests.m */,
+				0D63CA2023790D4700E668D0 /* Info.plist */,
+			);
+			path = JarvisTests;
+			sourceTree = "<group>";
+		};
+		0D63CA2823790D4700E668D0 /* JarvisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D63CA2923790D4700E668D0 /* JarvisUITests.m */,
+				0D63CA2B23790D4700E668D0 /* Info.plist */,
+			);
+			path = JarvisUITests;
+			sourceTree = "<group>";
+		};
+		0DAB540923790F15007C89BB /* commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = commons;
+			sourceTree = "<group>";
+		};
+		0DAB540A23790F56007C89BB /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0DCB52D92379318B007C8E51 /* HomePageViewController.h */,
+				0DCB52DA2379318B007C8E51 /* HomePageViewController.m */,
+				0DAB54112379185E007C89BB /* MainStoryboard.storyboard */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		0DAB540B23790F5F007C89BB /* product */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = product;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D63C9FE23790D4400E668D0 /* Jarvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D63CA2E23790D4700E668D0 /* Build configuration list for PBXNativeTarget "Jarvis" */;
+			buildPhases = (
+				0D63C9FB23790D4400E668D0 /* Sources */,
+				0D63C9FC23790D4400E668D0 /* Frameworks */,
+				0D63C9FD23790D4400E668D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jarvis;
+			productName = Jarvis;
+			productReference = 0D63C9FF23790D4400E668D0 /* Jarvis Native.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D63CA1923790D4700E668D0 /* JarvisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D63CA3123790D4700E668D0 /* Build configuration list for PBXNativeTarget "JarvisTests" */;
+			buildPhases = (
+				0D63CA1623790D4700E668D0 /* Sources */,
+				0D63CA1723790D4700E668D0 /* Frameworks */,
+				0D63CA1823790D4700E668D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D63CA1C23790D4700E668D0 /* PBXTargetDependency */,
+			);
+			name = JarvisTests;
+			productName = JarvisTests;
+			productReference = 0D63CA1A23790D4700E668D0 /* JarvisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D63CA2423790D4700E668D0 /* JarvisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D63CA3423790D4700E668D0 /* Build configuration list for PBXNativeTarget "JarvisUITests" */;
+			buildPhases = (
+				0D63CA2123790D4700E668D0 /* Sources */,
+				0D63CA2223790D4700E668D0 /* Frameworks */,
+				0D63CA2323790D4700E668D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D63CA2723790D4700E668D0 /* PBXTargetDependency */,
+			);
+			name = JarvisUITests;
+			productName = JarvisUITests;
+			productReference = 0D63CA2523790D4700E668D0 /* JarvisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D63C9F723790D4400E668D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = MLM;
+				TargetAttributes = {
+					0D63C9FE23790D4400E668D0 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					0D63CA1923790D4700E668D0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0D63C9FE23790D4400E668D0;
+					};
+					0D63CA2423790D4700E668D0 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0D63C9FE23790D4400E668D0;
+					};
+				};
+			};
+			buildConfigurationList = 0D63C9FA23790D4400E668D0 /* Build configuration list for PBXProject "Jarvis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D63C9F623790D4400E668D0;
+			productRefGroup = 0D63CA0023790D4400E668D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D63C9FE23790D4400E668D0 /* Jarvis */,
+				0D63CA1923790D4700E668D0 /* JarvisTests */,
+				0D63CA2423790D4700E668D0 /* JarvisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D63C9FD23790D4400E668D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D63CA1223790D4600E668D0 /* LaunchScreen.storyboard in Resources */,
+				0D63CA0F23790D4600E668D0 /* Assets.xcassets in Resources */,
+				0DAB54122379185E007C89BB /* MainStoryboard.storyboard in Resources */,
+				0D63CA0D23790D4400E668D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D63CA1823790D4700E668D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D63CA2323790D4700E668D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D63C9FB23790D4400E668D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D63CA0A23790D4400E668D0 /* ViewController.m in Sources */,
+				0D63CA0423790D4400E668D0 /* AppDelegate.m in Sources */,
+				0DCB52DB2379318B007C8E51 /* HomePageViewController.m in Sources */,
+				0D63CA1523790D4600E668D0 /* main.m in Sources */,
+				0D63CA0723790D4400E668D0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D63CA1623790D4700E668D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D63CA1F23790D4700E668D0 /* JarvisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D63CA2123790D4700E668D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D63CA2A23790D4700E668D0 /* JarvisUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D63CA1C23790D4700E668D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D63C9FE23790D4400E668D0 /* Jarvis */;
+			targetProxy = 0D63CA1B23790D4700E668D0 /* PBXContainerItemProxy */;
+		};
+		0D63CA2723790D4700E668D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D63C9FE23790D4400E668D0 /* Jarvis */;
+			targetProxy = 0D63CA2623790D4700E668D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D63CA0B23790D4400E668D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D63CA0C23790D4400E668D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D63CA1023790D4600E668D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D63CA1123790D4600E668D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D63CA2C23790D4700E668D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D63CA2D23790D4700E668D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D63CA2F23790D4700E668D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZW26WQ9Q5;
+				INFOPLIST_FILE = Jarvis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bike.Jarvis;
+				PRODUCT_NAME = "Jarvis Native";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D63CA3023790D4700E668D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZW26WQ9Q5;
+				INFOPLIST_FILE = Jarvis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bike.Jarvis;
+				PRODUCT_NAME = "Jarvis Native";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D63CA3223790D4700E668D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZW26WQ9Q5;
+				INFOPLIST_FILE = JarvisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bike.JarvisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jarvis.app/Jarvis";
+			};
+			name = Debug;
+		};
+		0D63CA3323790D4700E668D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZW26WQ9Q5;
+				INFOPLIST_FILE = JarvisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bike.JarvisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jarvis.app/Jarvis";
+			};
+			name = Release;
+		};
+		0D63CA3523790D4700E668D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZW26WQ9Q5;
+				INFOPLIST_FILE = JarvisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bike.JarvisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jarvis;
+			};
+			name = Debug;
+		};
+		0D63CA3623790D4700E668D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZW26WQ9Q5;
+				INFOPLIST_FILE = JarvisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Bike.JarvisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jarvis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D63C9FA23790D4400E668D0 /* Build configuration list for PBXProject "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D63CA2C23790D4700E668D0 /* Debug */,
+				0D63CA2D23790D4700E668D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D63CA2E23790D4700E668D0 /* Build configuration list for PBXNativeTarget "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D63CA2F23790D4700E668D0 /* Debug */,
+				0D63CA3023790D4700E668D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D63CA3123790D4700E668D0 /* Build configuration list for PBXNativeTarget "JarvisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D63CA3223790D4700E668D0 /* Debug */,
+				0D63CA3323790D4700E668D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D63CA3423790D4700E668D0 /* Build configuration list for PBXNativeTarget "JarvisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D63CA3523790D4700E668D0 /* Debug */,
+				0D63CA3623790D4700E668D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D63C9F723790D4400E668D0 /* Project object */;
+}
