@@ -9,17 +9,31 @@
 #import "HomePageViewController.h"
 
 @interface HomePageViewController ()
+@property (weak, nonatomic) IBOutlet UICollectionView *topSectionCollection;
 
 @end
 
 @implementation HomePageViewController
 
+const NSString *topSectionIdentifier = @"topSectionButtonItem";
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"homepage called! ");
     //sds
     // Do any additional setup after loading the view.
 }
 
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 3;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    return NULL;
+}
 /*
 #pragma mark - Navigation
 

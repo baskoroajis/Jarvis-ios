@@ -1,5 +1,5 @@
 //
-//  HomePageViewController.h
+//  TopSectionCollectionViewCell.h
 //  Jarvis
 //
 //  Created by Baskoro on 11/11/19.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HomePageViewController : UIViewController<UICollectionViewDataSource>
+@interface TopSectionCollectionViewCell : UICollectionViewCell
 
 @end
 

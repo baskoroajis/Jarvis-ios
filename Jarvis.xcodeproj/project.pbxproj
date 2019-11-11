@@ -18,6 +18,7 @@
 		0D63CA2A23790D4700E668D0 /* JarvisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D63CA2923790D4700E668D0 /* JarvisUITests.m */; };
 		0DAB54122379185E007C89BB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DAB54112379185E007C89BB /* MainStoryboard.storyboard */; };
 		0DCB52DB2379318B007C8E51 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DCB52DA2379318B007C8E51 /* HomePageViewController.m */; };
+		0DF15D5423795F6500172A5F /* TopSectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF15D5323795F6500172A5F /* TopSectionCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		0DAB54112379185E007C89BB /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0DCB52D92379318B007C8E51 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
 		0DCB52DA2379318B007C8E51 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		0DF15D5223795F6500172A5F /* TopSectionCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopSectionCollectionViewCell.h; sourceTree = "<group>"; };
+		0DF15D5323795F6500172A5F /* TopSectionCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopSectionCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 		0DAB540A23790F56007C89BB /* main */ = {
 			isa = PBXGroup;
 			children = (
+				0DF15D4B23795D6700172A5F /* cells */,
 				0DCB52D92379318B007C8E51 /* HomePageViewController.h */,
 				0DCB52DA2379318B007C8E51 /* HomePageViewController.m */,
 				0DAB54112379185E007C89BB /* MainStoryboard.storyboard */,
@@ -167,6 +171,15 @@
 			children = (
 			);
 			path = product;
+			sourceTree = "<group>";
+		};
+		0DF15D4B23795D6700172A5F /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0DF15D5223795F6500172A5F /* TopSectionCollectionViewCell.h */,
+				0DF15D5323795F6500172A5F /* TopSectionCollectionViewCell.m */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +317,7 @@
 				0D63CA0423790D4400E668D0 /* AppDelegate.m in Sources */,
 				0DCB52DB2379318B007C8E51 /* HomePageViewController.m in Sources */,
 				0D63CA1523790D4600E668D0 /* main.m in Sources */,
+				0DF15D5423795F6500172A5F /* TopSectionCollectionViewCell.m in Sources */,
 				0D63CA0723790D4400E668D0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
